@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8">
+  <title>JavaScript IIFE</title>
+</head>
+<body>
+  <script src="calc.js"></script>
+  <script src="app.js"></script>
+  <button id="btn">Save</button>
+  <script src="app.js"></script>
+  <input type="button" value="show" show="msg()"/>  
+ <input type="car">
+Output:
+</body>
+</html>
+
+
+<script> var lang="Java"; function lang_name(call) { call(); }; var obj={ lang:"JavaScript", language:function() { document.writeln(this.lang+ " is a popular programming language."); } }; lang_name(obj.language); lang_name(obj.language.bind(obj)); </script> 
+لإرسال رقم ♑♑♑
+<script> function validate(){ var num=document.myform.num.value; if (isNaN(num)){ document.getElementById("numloc").innerHTML="Enter Numeric value only"; return false; }else{ return true; } } </script> <form name="myform" onsubmit="return validate()" > Number: <input type="text" name="num"><span id="numloc"></span><br/> <input type="submit" value="submit"> </form> 
+مثالnena
+<script> function show() { var i, no, fact; fact = 1; no = Number(document.getElementById("num").value); for (i = 1; i <= no; i++) { fact = fact * i; } document.getElementById("answer").innerHTML = "Factorial Of "+no+" is : "+fact; } 
+3.  Return  Result(2). 9.8.1 ToString Applied  to the Number Type The operator ToString converts a number  m  to string format as follows: 1. If  m  is  NaN, return the string  "NaN". 2.  If  m  is  +0  or  −0, return the string  "0". 3.  If  m  is less than zero, return the string concatenation of the string  "-"  and ToString(−m). 4.  If  m  is infinity, return the string  "Infinity". 5.  Otherwise,  let  n,  k, and  s  be  integers such that  k  >= 1, 10k−1  <=  s  < 10k,  the  number  value  for  s⋅10n−k  is  m, and k  is as small as possible. Note that  k  is the number of  digits in the decimal  representation  of  s, that  s  is not divisible by  10, and that  the least  significant  digit  of  s  is  not  necessarily  uniquely  determined  by  these criteria. 6. If  k  <=  n  <= 21,  return the string consisting of  the  k  digits of  the decimal representation of  s (in order, with no leading zeroes), followed by  n−k  occurences of the character ‘0’. 7. If  0 < n  <= 21, return  the string  consisting  of  the  most  significant  n  digits of  the decimal representation of  s, followed by a decimal point ‘.’, followed by the remaining  k−n  digits of the decimal representation of  s. 8. If  −6 < n  <= 0, return  the string  consisting  of  the character  ‘0’,  followed by  a decimal  point  ‘.’,  followed  by −n  occurences of the character ‘0’, followed by the  k  digits of the decimal representation of  s. 9.  Otherwise,  if  k  =  1,  return the string consisting of  the single digit of  s, followed by  lowercase character ‘e’, followed by  a plus  sign  ‘+’ or  minus sign ‘−’  according  to whether  n−1  is positive or  negative, followed  by the decimal representation of the integer abs(n−1) (with no leading zeros). 10.  Return the string consisting of  the most significant digit of  the decimal representation of  s,  followed by  a decimal  point  ‘.’,  followed  by  the remaining  k−1  digits of  the  decimal  representation  of  s, followed  by  the lowercase character ‘e’,  followed by  a  plus  sign  ‘+’ or  minus sign ‘−’  according  to whether  n−1  is positive or negative, followed by the decimal representation of the integer abs(n−1) (with no leading zeros). Note that if  x  is any  number  value  other  than  −0, then ToNumber(ToString(x)) is exactly  the same  number  value as  x. As  noted,  the least significant digit of  s  is  not always  uniquely  determined  by  the requirements listed  in step  5. The following specification for step 5 was considered, but not adopted: (This paragraph  is not part of  the ECMAScript specification.)  Let  n,  k, and  s  be  be  integers such that  k  ≥  1, 10k−1  <=  s  < 10k,  the  number  value  for  s⋅10n−k  is  m, and  k  is as small as possible. If  there are multiple possibilities for  s, choose the value of  s  for  which  s⋅10n−k  is closest in value to  m. If  there are two such  possible values of  s, choose the one that is even. While  such  a strategy  is recommended  to  implementors, the actual rule is somewhat more permissive. Implementors of  ECMAScript  may  find  useful the paper and  code  written by  David  M.  Gay  for  binary-todecimal conversion of floating-point numbers [Gay 1990].
+</script> </head> <body> Enter Num: <input id="num"> <button onclick="show()">Factorial</button> <br> <span id="answer"></span> </body>
+مثال طبع
+لاستعلام والتصنيف 
+ </head> <body> Enter any Number: <input id="no_input"> <button onclick="reverse()">Check</button></br></br> </body>

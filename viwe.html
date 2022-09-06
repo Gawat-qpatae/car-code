@@ -1,0 +1,42 @@
+<!DOCTYPE html>  
+<html>  
+<meta name="viewport" content="width=device-width, initial-scale=1.0">  
+<body>  
+<h2>Responsive Image</h2>  
+<p>When we set the CSS width property to 100%, it makes the image responsive.    
+Resize the browser window to see the effect.</p>  
+<img src="jp.jpg" style="width:100%;">( change image)  
+</body>  
+</html>  <!DOCTYPE html>  
+<html>  
+<meta name="viewport" content="width=device-width, initial-scale=1.0">  
+<body>  
+<h2>Responsive Image</h2>  
+<p>"max-width:100%" makes the image responsive and also ensures that the image   
+doesn't get bigger than its original size.</p>  
+<p>Resize the browser window to see the effect.</p>  
+<img src="images/jp.png" style="max-width:100%;height:auto;"> (Change the image)   
+</body>  
+</html>  <!DOCTYPE html>  
+<html>  
+<meta name="viewport" content="width=device-width, initial-scale=1.0">  
+<body>  
+<h2>Change Images Depending on Browser Width</h2>  
+<p>Resize the browser width and the image will change at 600px and 1500px.</p>  
+<picture>  
+<source srcset="img_smallflower.jpg" media="(max-width: 600px)">(Change image)  
+<source srcset="img_flowers.jpg" media="(max-width: 1500px)">(Change image)  
+<source srcset="flowers.jpg">  
+<img src="img_flowers.jpg" alt="Flowers" style="width:auto;">  
+</picture>  
+</body>  
+</html>  <!DOCTYPE html>  
+<html>  
+<meta name="viewport" content="width=device-width, initial-scale=1.0">  
+<body>  
+<h1 style="font-size:10vw;">Here size is 10vw.</h1>  
+<p style="font-size:6vw;">Here size is 6vw.</p>  
+<p style="font-size:4vw;">Here size is 4vw.</p>  
+<p>Resize the browser window to see how the text size changes.</p>  
+</body>  
+</html>  
